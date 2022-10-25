@@ -1,9 +1,10 @@
-package com.example.passport
+package com.example.passport.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.passport.PrefManager
 import com.example.passport.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

@@ -8,7 +8,7 @@ import androidx.room.Query
 interface PassItemDao {
 
     @Query("SELECT* FROM passItem")
-    suspend fun getAllPassItem(): List<PassItem>
+     suspend fun getAll(): List<PassItem>
 
     @Insert
     suspend fun putPassItem(passItem: PassItem)

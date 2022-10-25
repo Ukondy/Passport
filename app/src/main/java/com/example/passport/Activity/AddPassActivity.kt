@@ -1,4 +1,4 @@
-package com.example.passport
+package com.example.passport.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
